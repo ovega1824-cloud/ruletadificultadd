@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "ruletadificultad",
+  "version": "${version}",
+  "name": "Ruleta de Dificultad",
+  "description": "Agrega una ruleta multicolor (solo para admins) que abre un menu con cambios de dificultad que se activan y desactivan.",
+  "authors": [],
+  "license": "MIT",
+  "icon": "assets/ruletadificultad/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ruletadificultad.RuletaDificultadMod"
+    ],
+    "client": [
+      "com.ruletadificultad.client.RuletaDificultadClient"
+    ]
+  },
+  "accessWidener": "ruletadificultad.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
